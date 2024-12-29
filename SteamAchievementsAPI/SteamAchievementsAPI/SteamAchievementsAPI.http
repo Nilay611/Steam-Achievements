@@ -1,0 +1,6 @@
+@SteamAchievementsAPI_HostAddress = http://localhost:5118
+
+GET {{SteamAchievementsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
