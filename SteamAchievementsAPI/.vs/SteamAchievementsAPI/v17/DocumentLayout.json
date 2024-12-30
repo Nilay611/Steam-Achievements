@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|e:\\programming\\projects\\steam-achievements\\steamachievementsapi\\steamachievementsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|solutionrelative:steamachievementsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|e:\\programming\\projects\\steam-achievements\\steamachievementsapi\\steamachievementsapi\\models\\achievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|solutionrelative:steamachievementsapi\\models\\achievements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|e:\\programming\\projects\\steam-achievements\\steamachievementsapi\\steamachievementsapi\\controllers\\steamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|solutionrelative:steamachievementsapi\\controllers\\steamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|e:\\programming\\projects\\steam-achievements\\steamachievementsapi\\steamachievementsapi\\services\\steamapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|solutionrelative:steamachievementsapi\\services\\steamapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|e:\\programming\\projects\\steam-achievements\\steamachievementsapi\\steamachievementsapi\\services\\isteamapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|solutionrelative:steamachievementsapi\\services\\isteamapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|e:\\programming\\projects\\steam-achievements\\steamachievementsapi\\steamachievementsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207F437E-D45D-4F28-A990-05F2B4FC4B5E}|SteamAchievementsAPI\\SteamAchievementsAPI.csproj|solutionrelative:steamachievementsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Achievements.cs",
+              "DocumentMoniker": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Models\\Achievements.cs",
+              "RelativeDocumentMoniker": "SteamAchievementsAPI\\Models\\Achievements.cs",
+              "ToolTip": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Models\\Achievements.cs",
+              "RelativeToolTip": "SteamAchievementsAPI\\Models\\Achievements.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:45:41.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SteamAchievementsAPI\\appsettings.json",
+              "ToolTip": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\appsettings.json",
+              "RelativeToolTip": "SteamAchievementsAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T13:49:46.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISteamApiService.cs",
+              "DocumentMoniker": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Services\\ISteamApiService.cs",
+              "RelativeDocumentMoniker": "SteamAchievementsAPI\\Services\\ISteamApiService.cs",
+              "ToolTip": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Services\\ISteamApiService.cs",
+              "RelativeToolTip": "SteamAchievementsAPI\\Services\\ISteamApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T13:39:21.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SteamApiService.cs",
+              "DocumentMoniker": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Services\\SteamApiService.cs",
+              "RelativeDocumentMoniker": "SteamAchievementsAPI\\Services\\SteamApiService.cs",
+              "ToolTip": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Services\\SteamApiService.cs",
+              "RelativeToolTip": "SteamAchievementsAPI\\Services\\SteamApiService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:36:12.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SteamController.cs",
+              "DocumentMoniker": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Controllers\\SteamController.cs",
+              "RelativeDocumentMoniker": "SteamAchievementsAPI\\Controllers\\SteamController.cs",
+              "ToolTip": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Controllers\\SteamController.cs",
+              "RelativeToolTip": "SteamAchievementsAPI\\Controllers\\SteamController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:01:29.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SteamAchievementsAPI\\Program.cs",
+              "ToolTip": "E:\\Programming\\Projects\\steam-achievements\\SteamAchievementsAPI\\SteamAchievementsAPI\\Program.cs",
+              "RelativeToolTip": "SteamAchievementsAPI\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:34:30.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

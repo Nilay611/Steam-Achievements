@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nIXtHu6Fg4DOn6STd4/zcbiPNn8v9XkyoS2/kX0AG0k=",
+  "Source": "SteamAchievementsAPI",
+  "BasePath": "_content/SteamAchievementsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

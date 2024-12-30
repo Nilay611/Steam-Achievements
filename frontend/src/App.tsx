@@ -1,31 +1,46 @@
 import { useState, useEffect } from "react";
 import GameList from "../src/app/components/GameList";
 import AchievementList from "../src/app/components/AchievementList";
+import { getGames, getAchievements } from "./app/services/apiconfig";
 
 const App = () => {
   const [games, setGames] = useState([]);
   const [selectedGame, setSelectedGame] = useState(null);
+  const [achievements, setAchievements] = useState([]);
 
   useEffect(() => {
-    // Fetch your games data here and set it to `games` state
+    const fetchGames = async () => {
+      try {
+        const gamesData = await getGames();
+        setGames(gamesData.response.games);
+      } catch (error) {
+        console.error("Error fetching games: ", error);
+      }
+    };
+    fetchGames();
   }, []);
 
-  const handleGameSelect = (game) => {
-    setSelectedGame(game);
-    // Fetch achievements for the selected game
+  const handleGameSelect = async (game) => {
+    try {
+      setSelectedGame(game);
+      const achievementsData = await getAchievements(game.appid);
+      if (
+        achievementsData.game?.availableGameStats?.achievements === null ||
+        achievementsData.game?.availableGameStats?.achievements === undefined
+      ) {
+        setAchievements([]);
+        return;
+      }
+      setAchievements(achievementsData.game.availableGameStats.achievements);
+    } catch (error) {
+      console.error("Error fetching achievements: ", error);
+    }
   };
 
   return (
     <div className="App">
-      <GameList
-        games={[{ name: "game 1", description: "test", id: 1 }]}
-        onGameSelect={handleGameSelect}
-      />
-      {selectedGame && (
-        <AchievementList
-          achievements={[{ title: "achievement1", description: "1desc" }]}
-        />
-      )}
+      <GameList games={games} onGameSelect={handleGameSelect} />
+      {selectedGame && <AchievementList achievements={achievements} />}
     </div>
   );
 };
